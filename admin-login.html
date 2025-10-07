@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Admin Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="login-page">
+    <div class="login-card">
+      <h2>Admin Login</h2>
+      <form id="adminForm">
+        <label>Email
+          <input type="email" id="adminEmail" required placeholder="admin@school.edu">
+        </label>
+
+        <label>Password
+          <input type="password" id="adminPass" required placeholder="admin123">
+        </label>
+
+        <button type="submit" class="btn">Sign In</button>
+        <p class="muted">Dummy account: <strong>admin@school.edu</strong> / <strong>admin123</strong></p>
+        <a href="index.html" class="link">Back to Home</a>
+        <div id="adminMsg" class="msg"></div>
+      </form>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
